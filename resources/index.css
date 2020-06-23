@@ -1,0 +1,49 @@
+html{
+    min-height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: cadetblue;
+}
+
+.root{
+   width: 700px;
+   margin: 150px auto;
+}
+
+.box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px 5px rgba(14, 21, 47, .2);
+    padding: 20px 40px;
+    overflow: hidden;
+    display: flex;
+}
+.msg-header{
+    background-color: mediumblue;
+    border: 2px solid mediumblue;
+}
+.container{
+    border: 2px solid #f1f1f1;
+    min-height: 70px;
+    border-radius: 5px;
+    margin: 4px 0;
+    padding: 0px 5px;
+    clear: right;
+}
+.recieve{
+    border-color: #B0E0E6;
+    background-color: #B0E0E6;
+    
+}
+.container::after{
+    content: "";
+    clear: both;
+}
+.send{
+   float: right;
+   color: #F0F8FF;
+}
